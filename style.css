@@ -12,8 +12,11 @@ img {
 }
 
 section {
+    margin-bottom: 100px;
+}
+
+.flex {
     display: flex;
-    margin-bottom: 150px;
 }
 
 .hero {
@@ -49,4 +52,39 @@ section {
 
 .dream-big-hero {
     padding-right: 15%;
+}
+
+.expreience-area {
+    background-image: url(images/exp-bg.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.left {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.right {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+
+.end-h {
+    color: #ffa500;
+}
+
+.end {
+    box-shadow: 5px 7px 40px grey;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+footer p {
+    text-align: center;
 }
